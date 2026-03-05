@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int choice = 3;
+    switch(choice){
+        case 1:
+        cout<< "Gojo"<<endl;
+        break;
+        case 2:
+        cout<< "Sukuna"<<endl;
+        break;
+        case 3:
+        cout << "yuji itadori"<<endl;
+        break;
+    }
+    return 0;
+    }
