@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int choice = 2;
+    int*ptr = &choice;
+    cout<< choice<<endl;
+    cout <<&choice <<endl;
+    cout <<ptr<<endl;
+    return 0;
+
+}
